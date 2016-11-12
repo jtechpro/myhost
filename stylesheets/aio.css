@@ -56,77 +56,7 @@ a {
 	width:95%;
 	white-space:nowrap;
 	font-family:Courier New;
-	font-size:10pt;
-	box-shadow:4px 2px 2px 2px whitesmoke,4px 2px 2px 4px lightgray,4px 2px 2px 2px gray;
-	margin:10px 0;
-	padding:10px
-}
-.post i {
-	font-style:italic
-}
-#header h1 {
-	font:normal bold 308% Times,serif;
-	font-variant:small-caps;
-	color:#00399d;
-	text-shadow:.1px .5px 1px #2a6080;
-	margin:0
-}
-to {
-	border-right:650px solid #FFF;
-	border-left:620px solid #FFF;
-	padding-left:0;
-	width:577px;
-	padding-top:0
-}
-#header h1 a {
-	text-decoration:none;
-	color:#00399d;
-	text-shadow:.1px .5px 1px #00399d;
-}
-#header h1 a:active {
-	text-shadow:.1px .5px 0 #00399d
-}
-#header .description {
-	font:italic bold 100% Georgia,Times,serif;
-	color:#00399d;
-	padding:2px 20px 25px;
-}
-#linkbar-wrapper {
-	position:relative;
-	margin:0 5px;
-	padding:0
-}
-#linkbar .widget {
-	text-align:left;
-	background:#00399d;
-	margin:5px 0 10px;
-	padding:5px 0 7px
-}
-#linkbar li {
-	display:inline;
-	margin:0;
-	padding:0
-}
-#linkbar a {
-	text-decoration:none;
-	color:#FFF;
-	font:500 13.1pt sans-serif;
-	text-transform:uppercase;
-	text-shadow:-1px -1px 0 rgba(0,0,0,0.3);
-	margin:5px;
-	padding:6.8px 19px;
-		transition:all .4s ease;
-}
-#linkbar a:hover {
-	box-shadow:4px 44px 24px 4px #FFF inset;
-	text-shadow:none;
-	color:#000;
-	border-bottom:1px solid #FFF
-}
-#content-wrapper {
-	position:relative;
-	text-align:left;
-	background:#fff;
+https://rawgit.com/jtechpro/myhost/gh-pages/stylesheets/aio.css
 	border:1px solid #fff;
 	word-wrap:break-word;
 	overflow:hidden;
