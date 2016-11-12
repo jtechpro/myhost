@@ -1,9 +1,3 @@
-.inlinks:hover {
-    text-decoration: none;
-    color: #000;
-    cursor: text
-}
-
 body {
     text-align: center;
     color: $textColor;
@@ -241,55 +235,12 @@ to {
     background: #133d5b
 }
 
-#middleads-wrapper {
-    width: 952px;
-    position: relative;
-    text-align: center;
-    margin: 0;
-    padding: 0
-}
-
 .jtut:hover {
     color: #000;
     text-decoration: none;
     cursor: text
 }
 
-#middleads,
-#middleads2 {
-    background: #fff;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
-    margin: 0;
-    padding: 15px 0 10px
-}
-
-#middleads-wrapper a:hover h2 {
-    text-decoration: none;
-    color: #000;
-    cursor: normal
-}
-
-#middleads-wrapper h2 a:hover {
-    cursor: normal;
-    text-decoration: none;
-    color: #000
-}
-
-#middleads-wrapper h2 {
-    text-decoration: none;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    cursor: normal
-}
-
-#middleads-wrapper ul {
-    list-style-type: none
-}
-
-#middleads-wrapper li {
-    display: inline
-}
 
 #content-wrapper {
     width: 950px;
@@ -729,93 +680,6 @@ code {
     padding: 0
 }
 
-#comments {
-    text-align: left;
-    color: $commentTextColor;
-    font: $commentTextFont;
-    margin: 0;
-    padding: 0 0 20px
-}
-
-.comments-singleblock {
-    background: $commentboxBgColor;
-    border: 1px solid $commentboxBorderColor;
-    margin: 10px 0;
-    padding: 15px
-}
-
-#comments h4 {
-    color: $commentTitleColor;
-    font: $commentTitleFont;
-    text-transform: uppercase;
-    margin: 15px 0 0;
-    padding: 0 0 5px
-}
-
-.deleted-comment {
-    font-style: italic;
-    color: gray;
-    margin: 5px 0
-}
-
-.comment-author {
-    color: $commentauthorColor;
-    font-weight: 700;
-    background: $commentauthorBgColor;
-    margin: -15px -15px 0;
-    padding: 5px 15px
-}
-
-.comment-author a:hover {
-    color: $commentTimeStampColor;
-    text-decoration: underline
-}
-
-.comment-body {
-    background: #FFF;
-    margin: 0;
-    padding: 10px 0 10px 30px
-}
-
-.comment-body p {
-    line-height: 1.6em;
-    background: #FFF;
-    margin: 0;
-    padding: 0
-}
-
-.comment-footer,
-.comment-footer a {
-    margin: 0;
-    padding: 4px 0 0
-}
-
-.comment-timestamp {
-    color: $commentTimeStampColor;
-    margin: 0;
-    padding: 20px 0 10px 30px
-}
-
-.comment-timestamp a {
-    color: $commentTimeStampColor;
-    text-decoration: none
-}
-
-.comment-timestamp a:hover {
-    color: $commentauthorColor;
-    text-decoration: underline
-}
-
-#comments ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0
-}
-
-html>body a.comment-link {
-    padding-left: 0
-}
-
 #backlinks-container {
     margin-top: 30px
 }
@@ -846,24 +710,10 @@ html>body a.comment-link {
     padding: 0 0 20px
 }
 
-#lowerads-wrapper {
-    float: left;
-    width: 100%;
-    text-align: center;
-    word-wrap: break-word;
-    overflow: hidden;
-    margin: 0;
-    padding: 0
-}
 
 .lowerbar .widget {
     margin: 0;
     padding: 30px 20px 0 30px
-}
-
-.lowerads .widget {
-    margin: 0;
-    padding: 0 0 30px
 }
 
 .lowerbar h2 {
@@ -927,173 +777,6 @@ h6.bottom {
     padding: 0
 }
 
-#footer {
-    text-align: left;
-    font: normal normal 79% Arial, Tahoma, Helvetica, FreeSans, sans-serif;
-    line-height: 1.6em;
-    border: 1px solid #fff;
-    border-top: 0;
-    border-radius: .1em;
-    color: #FFF;
-    background: #00399d;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), inset 0 1px rgba(255, 255, 255, 0.1), inset 0 5px rgba(255, 255, 255, 0.1), inset 0 15px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3), 0px 0 2px lightgray;
-    border-color: #00399d;
-    margin: 0 0 25px;
-    padding: 20px 0 0
-}
-
-#footer a {
-    text-decoration: none;
-    color: #FFF
-}
-
-#footer h2 {
-    color: #FFF;
-    font: normal normal 113% Open Sans;
-    margin: 0;
-    padding: 0 0 5px
-}
-
-#footer h4 {
-    color: #FFF;
-    font-family: arial;
-    font-size: 17px;
-    font-weight: 700;
-    margin: 0;
-    padding: 0 0 5px
-}
-
-#footer .widget {
-    margin: 0;
-    padding: 0 20px 20px
-}
-
-.footer a {
-    color: $footerLinkColor;
-    text-decoration: none
-}
-
-.footer a:hover {
-    color: #fff;
-    text-decoration: underline
-}
-
-.footer a:visited {
-    color: #e6e6e6;
-    text-decoration: none
-}
-
-#bottomads-wrapper {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    background: #FFF;
-    border: 0 #FFF;
-    margin: 0;
-    padding: 0
-}
-
-#bottomads-wrapper a {
-    padding-bottom: 4px;
-    margin-bottom: 5px;
-    text-decoration: none
-}
-
-#bottomads-wrapper li {
-    font-family: Arial;
-    font-size: 10pt;
-    display: inline;
-    list-style-type: square
-}
-
-#bottomads-wrapper ul {
-    list-style-type: square
-}
-
-#bottomads {
-    margin: 0;
-    padding: 10px 0
-}
-
-#credit {
-    width: 100%;
-    height: 26px;
-    clear: both;
-    font-family: verdana, helvetica;
-    font-size: 70%;
-    color: #444;
-    font-weight: 400;
-    background: #777;
-    margin: 0;
-    padding: 2px 0 0
-}
-
-#creditleft {
-    height: 26px;
-    position: relative;
-    float: left;
-    text-align: left;
-    display: inline;
-    width: 71%;
-    background: #fff;
-    margin: 0;
-    padding: 7px 0 0
-}
-
-#creditright {
-    height: 26px;
-    position: relative;
-    float: right;
-    text-align: right;
-    display: inline;
-    width: 30%;
-    background: #fff;
-    margin: -33px 0 0;
-    padding: 7px 0 0
-}
-
-.author-box {
-    background: #F7F7F7;
-    border: 1px solid #E6E6E6;
-    overflow: auto;
-    margin: 20px 0 40px;
-    padding: 10px
-}
-
-.author-box img {
-    background: #FFF;
-    float: left;
-    border: 1px solid #E6E6E6;
-    margin: 0 10px 0 0;
-    padding: 4px
-}
-
-.judul-label {
-    background-color: #E5ECF9;
-    font-weight: 400;
-    line-height: 1.4em;
-    overflow: hidden;
-    white-space: nowrap;
-    vertical-align: baseline;
-    outline: none;
-    cursor: pointer;
-    text-decoration: none;
-    font: 14px/100% Arial, Helvetica, sans-serif;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
-    -webkit-border-radius: .5em;
-    -moz-border-radius: .5em;
-    border-radius: .5em;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-    -moz-box-shadow: 1px 1px 4px #AAA;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-    color: #e9e9e9;
-    border: 2px solid #FFF!important;
-    background: 0;
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#888', endColorstr='#575757');
-    margin: 0 2px;
-    padding: .5em 2em .55em
-}
-
 .data-list {
     line-height: 1.2em;
     margin-left: 5px;
@@ -1137,7 +820,6 @@ h6.bottom {
 }
 
 *,
-#topads,
 #header h1 p,
 #header .description p,
 .date-header span,
@@ -1148,7 +830,6 @@ h6.bottom {
 .profile-link,
 #comments li,
 .lowerbar,
-.lowerads,
 .lowerbar ul,
 .footer p,
 #creditleft p,
@@ -1159,8 +840,7 @@ h6.bottom {
 }
 
 .inlinks,
-.jtut,
-#middleads-wrapper a h2 {
+.jtut{
     text-decoration: none;
     color: #000
 }
@@ -1171,20 +851,13 @@ a:hover,
     text-decoration: underline
 }
 
-#topads .widget,
-#bottomads .widget {
-    margin: 0;
-    padding: 5px 0
-}
-
 .post h4 a:hover,
-#middleads-wrapper a:hover {
+{
     text-decoration: underline;
     color: #2A6080
 }
 
 #header-wrapper a,
-#middleads-wrapper h2 a,
 #blog-pager a:hover,
 .feed-links a:hover {
     color: #000
@@ -1195,47 +868,6 @@ a:hover,
     text-align: center;
     margin: 0;
     padding: 0
-}
-
-#middleads .widget,
-#middleads2 .widget,
-.post-footer img {
-    margin: 0;
-    padding: 0 0 5px
-}
-
-#middleads-wrapper a,
-h2:hover,
-#sidebar1 a:visited,
-#lowerbar-wrapper Text2 a:hover {
-    text-decoration: none
-}
-
-.comment-author a,
-.comment-author a:visited {
-    color: $commentauthorColor;
-    text-decoration: none
-}
-
-a.comment-link,
-body#layout #main,
-body#layout #sidebar {
-    padding: 0
-}
-
-.social-buttons &gt;
-li {
-    display: inline;
-    margin: 0;
-    padding: 0px;
-}
-
-.social-buttons .socialite {
-    display: inline;
-}
-
-.social-buttons .socialite-loaded {
-    background: none !important;
 }
 
 span.vhidden &gt;
