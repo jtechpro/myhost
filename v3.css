@@ -27,6 +27,7 @@ tr th {
     box-sizing: border-box
 }
 
+
 body {
     font-family: sans-serif;
     color: #fff;
@@ -198,9 +199,6 @@ text-align:center;
 
 }
 
-.filterinput:hover,.ddlFilterTableRow:hover {
-    background: #fff
-}
 
 @media only screen and (max-width: 1024px) {
     .thoptv-item {
